@@ -4,7 +4,7 @@ description: Design or review tactile web interfaces with translucent materials,
 license: MIT
 metadata:
   author: Daniel Netzer
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Tactile UI
@@ -15,7 +15,11 @@ Make the surface inviting and the action obvious. Material is a way to communica
 
 Identify the action, its frequency and the existing design system. Keep familiar semantics, information order and hit areas. Choose one expressive surface first. A checkout, editor or dense table may need almost no material treatment.
 
-Read [material recipes](references/materials.md) for implementation and [sources](references/sources.md) for provenance. The Sea Glass clip is a visual reference, not evidence of an Android release or usable production code.
+Read [material recipes](references/materials.md), [component recipes](references/components.md) and, when needed, [optics](references/optics.md) for implementation and [sources](references/sources.md) for provenance. The Sea Glass clip is a visual reference, not evidence of an Android release or usable production code.
+
+## Read the whole reference
+
+Inspect the full reference before choosing an implementation. Record the material, geometry, interaction and state changes separately. A clip may move from abstract glass to actual controls; do not deliver decorative blobs when the useful reference is a slider, checkbox or phone interface. Build a small component board first, then show the same tokens in context. Identify what is observed versus your own interpretation.
 
 ## 1. Separate the readable layer
 
